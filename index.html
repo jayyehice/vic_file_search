@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引用css -->
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    
+    <title>File Search</title>
+</head>
+<body>
+    <header class="set-middle">
+        <div class="">
+            <h1>File Search</h1>
+        </div>
+    </header>
+
+    <main class="">
+        <div class="set-middle search-bar">
+            <input class="keyword-column" id="keywordColumn" type="text">
+            <button class="search-button" id="searchButton">Search</button>
+        </div>
+        <div class="data" id="data-table">
+            <table class="border">
+                <thead>
+                    <tr>
+                        <th class="border">Serial</th>
+                        <th class="border">File_title</th>
+                        <th class="border">File_content</th>
+                    </tr>
+                </thead>
+                <tbody id="dataBody"></tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer class="set-middle">
+        <h3>Copyright © [year] [owner]. All rights reserved.</h3>
+    </footer>
+
+    <!-- 引用JavaScript -->
+    <script src="./js/index.js"></script>
+</body>
+</html>
